@@ -1,0 +1,15 @@
+app:
+  name: poi-gateway-app
+  namespace: jxrht-gh2-4
+  cluster: .apps.summit23bis.17gd.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23JanusN/jxrht-gh2-4-gateway
+  org: Summit23JanusN
+  name: jxrht-gh2-4-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jxrht-gh2-4/poi-gateway-app
+  tag: latest
